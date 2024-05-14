@@ -18,7 +18,7 @@ const validateSignup = async (req, res, next) => {
                 .regex(/^(?=.*[A-Z])(?=.*[!@#$%^&*])(?=.*[0-9a-zA-Z]).{8,}$/)
                 .required(),
             confirmPassword: Joi.string().valid(Joi.ref('password')).required(),
-            userType: Joi.string().required(),
+            userType: Joi.any(),
             conditions: Joi.boolean(),
         });
         const { error, value } = signupSchema.validate(req.body, { abortEarly: false });

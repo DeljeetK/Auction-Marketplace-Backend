@@ -50,7 +50,7 @@ const userSchema = new mongoose.Schema({
     default: null,
   },
   userType: {
-    type: String,
+    type: String, 
   },
   conditions: {
     type: String,

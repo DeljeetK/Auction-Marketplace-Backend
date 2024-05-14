@@ -891,3 +891,16 @@ error [Tue May 14 2024 02:24:30 GMT+0530 (India Standard Time)]  Wrong credentia
 info [Tue May 14 2024 20:13:49 GMT+0530 (India Standard Time)]  User created successfully.
 
 info [Tue May 14 2024 20:19:36 GMT+0530 (India Standard Time)]  User created successfully.
+
+error [Tue May 14 2024 21:37:45 GMT+0530 (India Standard Time)]  "userType" must be a string
+error [Tue May 14 2024 21:38:48 GMT+0530 (India Standard Time)]  "userType" must be a string
+
+
+error [Tue May 14 2024 21:40:50 GMT+0530 (India Standard Time)]  "userType" is not allowed
+
+
+
+error [Tue May 14 2024 21:41:42 GMT+0530 (India Standard Time)]  "userType" must be a string
+
+info [Tue May 14 2024 21:42:20 GMT+0530 (India Standard Time)]  User created successfully.
+
