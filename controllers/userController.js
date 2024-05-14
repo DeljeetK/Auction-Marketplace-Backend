@@ -63,3 +63,17 @@ exports.updateUser = async (req, res) => {
         sendErrorResponse(res, error.statusCode || 500, error.message);
     }
 }
+exports.userDetails = async (req, res) => {
+    try {
+        const userId = req.query.id;
+        const user =  await findDocument(User, {_id: userId});
+        if (!user) {
+            const error = new Error(Messages.USER_NOT_FOUND);
+            error.statusCode = STATUS_CODES.NOT_FOUND;
+            throw error;
+        } 
+        sendSuccessResponse(res, STATUS_CODES.USER_UPDATED, Messages.USER_UPDATED, user);
+    } catch (error) {
+        sendErrorResponse(res, error.statusCode || 500, error.message);
+    }
+}

@@ -17,6 +17,7 @@ router.post('/reset-password', verifyToken, authController.resetPassword);
 router.delete('/user', authController.deleteAccount);
 router.delete('/product', productController.deleteProduct);
 
+router.get("/user", userController.userDetails);
 router.get('/users', verifyToken, userController.listUsers);
 router.put('/user', userController.updateUser);
 router.put('/change-password', validators.validateChangePassword, authController.changePassword);
