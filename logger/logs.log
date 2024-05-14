@@ -1,0 +1,893 @@
+info [Tue Apr 09 2024 23:03:15 GMT+0530 (India Standard Time)]  User created: johnn@example.com
+info [Tue Apr 09 2024 23:04:23 GMT+0530 (India Standard Time)]  User created: jon@example.com
+error [Tue Apr 09 2024 23:09:20 GMT+0530 (India Standard Time)]  Email already exist.
+
+
+
+error [Wed Apr 10 2024 02:01:18 GMT+0530 (India Standard Time)]  Email already exist.
+error [Wed Apr 10 2024 02:48:22 GMT+0530 (India Standard Time)]  Email already exist.
+
+
+
+
+
+
+error [Wed Apr 10 2024 03:45:10 GMT+0530 (India Standard Time)]  Email already exist.
+error [Wed Apr 10 2024 03:45:23 GMT+0530 (India Standard Time)]  Error creating user: userType is not defined
+
+info [Wed Apr 10 2024 03:45:54 GMT+0530 (India Standard Time)]  User created: jn@example.com
+
+
+
+error [Wed Apr 10 2024 03:51:36 GMT+0530 (India Standard Time)]  Email already exist.
+
+error [Wed Apr 10 2024 03:53:13 GMT+0530 (India Standard Time)]  Email already exist.
+error [Wed Apr 10 2024 03:53:13 GMT+0530 (India Standard Time)]  error is not defined
+
+error [Wed Apr 10 2024 03:53:31 GMT+0530 (India Standard Time)]  Email already exist.
+error [Wed Apr 10 2024 03:53:31 GMT+0530 (India Standard Time)]  ReferenceError: error is not defined
+    at exports.createUser (/home/deljeetk/auctionmarketplace_backend/controllers/authController.js:9:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+
+error [Wed Apr 10 2024 03:54:36 GMT+0530 (India Standard Time)]  Email already exist.
+error [Wed Apr 10 2024 03:54:36 GMT+0530 (India Standard Time)]  {}
+
+error [Wed Apr 10 2024 03:57:15 GMT+0530 (India Standard Time)]  Email already exist.
+error [Wed Apr 10 2024 03:57:15 GMT+0530 (India Standard Time)]  {}
+
+error [Wed Apr 10 2024 03:57:43 GMT+0530 (India Standard Time)]  {}
+
+error [Wed Apr 10 2024 03:58:10 GMT+0530 (India Standard Time)]  Email already exist
+
+info [Wed Apr 10 2024 03:58:37 GMT+0530 (India Standard Time)]  user created
+
+
+error [Wed Apr 10 2024 04:08:04 GMT+0530 (India Standard Time)]  Error: Error creating user
+    at exports.createUser (/home/deljeetk/auctionmarketplace_backend/services/authService.js:31:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.createUser (/home/deljeetk/auctionmarketplace_backend/controllers/authController.js:6:18)
+
+info [Wed Apr 10 2024 04:13:27 GMT+0530 (India Standard Time)]  user created
+
+
+
+
+error [Wed Apr 10 2024 04:18:18 GMT+0530 (India Standard Time)]  ReferenceError: User is not defined
+    at exports.createUser (/home/deljeetk/auctionmarketplace_backend/controllers/authController.js:7:38)
+    at Layer.handle [as handle_request] (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/route.js:149:13)
+    at validateSignup (/home/deljeetk/auctionmarketplace_backend/middlewares/validators.js:30:16)
+    at Layer.handle [as handle_request] (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/index.js:346:12)
+
+error [Wed Apr 10 2024 04:19:02 GMT+0530 (India Standard Time)]  ObjectParameterError: Parameter "filter" to findOne() must be an object, got "jn@eaxmple.com" (type string)
+    at Query.findOne (/home/deljeetk/auctionmarketplace_backend/node_modules/mongoose/lib/query.js:2592:16)
+    at Function.findOne (/home/deljeetk/auctionmarketplace_backend/node_modules/mongoose/lib/model.js:2355:13)
+    at exports.findDocument (/home/deljeetk/auctionmarketplace_backend/services/db.service.js:2:24)
+    at exports.createUser (/home/deljeetk/auctionmarketplace_backend/controllers/authController.js:8:25)
+    at Layer.handle [as handle_request] (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/route.js:149:13)
+    at validateSignup (/home/deljeetk/auctionmarketplace_backend/middlewares/validators.js:30:16)
+    at Layer.handle [as handle_request] (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/route.js:119:3)
+
+
+
+
+error [Wed Apr 10 2024 04:26:45 GMT+0530 (India Standard Time)]  Email already exists
+
+
+error [Wed Apr 10 2024 04:29:37 GMT+0530 (India Standard Time)]  hashData is not defined
+
+error [Wed Apr 10 2024 04:31:13 GMT+0530 (India Standard Time)]  Model.create is not a function
+
+info [Wed Apr 10 2024 04:31:42 GMT+0530 (India Standard Time)]  User created
+
+
+error [Wed Apr 10 2024 04:32:19 GMT+0530 (India Standard Time)]  Email already exists
+
+
+
+
+
+error [Wed Apr 10 2024 04:39:29 GMT+0530 (India Standard Time)]  Customer already exists.
+
+
+error [Wed Apr 10 2024 04:40:06 GMT+0530 (India Standard Time)]  User already exists.
+
+
+
+
+error [Wed Apr 10 2024 04:47:17 GMT+0530 (India Standard Time)]  409
+
+
+
+
+error [Wed Apr 10 2024 04:51:01 GMT+0530 (India Standard Time)]  User already exists.
+
+error [Wed Apr 10 2024 04:52:20 GMT+0530 (India Standard Time)]  Email already exists.
+
+
+error [Wed Apr 10 2024 04:52:33 GMT+0530 (India Standard Time)]  Email already exists.
+
+
+error [Wed Apr 10 2024 04:53:24 GMT+0530 (India Standard Time)]  Email already exists.
+
+info [Wed Apr 10 2024 04:55:29 GMT+0530 (India Standard Time)]  User created successfully.
+
+
+error [Wed Apr 10 2024 20:34:32 GMT+0530 (India Standard Time)]  Error: "confirmPassword" must be [ref:password]
+    at validateSignup (/home/deljeetk/auctionmarketplace_backend/middlewares/validators.js:29:19)
+    at Layer.handle [as handle_request] (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/index.js:47:12)
+
+
+
+
+
+
+
+
+
+
+
+
+info [Wed Apr 10 2024 21:00:39 GMT+0530 (India Standard Time)]  User fetched successfully.
+
+info [Wed Apr 10 2024 21:01:43 GMT+0530 (India Standard Time)]  User fetched successfully.
+
+
+
+
+
+
+
+
+
+info [Wed Apr 10 2024 21:35:47 GMT+0530 (India Standard Time)]  User updated successfully.
+
+info [Wed Apr 10 2024 21:36:21 GMT+0530 (India Standard Time)]  User updated successfully.
+info [Wed Apr 10 2024 21:37:38 GMT+0530 (India Standard Time)]  User updated successfully.
+
+error [Wed Apr 10 2024 21:41:34 GMT+0530 (India Standard Time)]  
+
+info [Wed Apr 10 2024 21:42:05 GMT+0530 (India Standard Time)]  User updated successfully.
+info [Wed Apr 10 2024 21:44:45 GMT+0530 (India Standard Time)]  User updated successfully.
+
+
+error [Wed Apr 10 2024 21:46:43 GMT+0530 (India Standard Time)]  
+
+error [Wed Apr 10 2024 21:48:39 GMT+0530 (India Standard Time)]  User not found
+error [Wed Apr 10 2024 22:02:42 GMT+0530 (India Standard Time)]  User not found
+
+error [Wed Apr 10 2024 22:03:42 GMT+0530 (India Standard Time)]  Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "User"
+
+
+error [Wed Apr 10 2024 22:05:47 GMT+0530 (India Standard Time)]  Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "User"
+error [Wed Apr 10 2024 22:06:05 GMT+0530 (India Standard Time)]  Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "User"
+error [Wed Apr 10 2024 22:08:02 GMT+0530 (India Standard Time)]  Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "User"
+
+info [Wed Apr 10 2024 22:08:39 GMT+0530 (India Standard Time)]  User updated successfully.
+
+info [Wed Apr 10 2024 22:11:02 GMT+0530 (India Standard Time)]  User updated successfully.
+error [Wed Apr 10 2024 22:11:29 GMT+0530 (India Standard Time)]  Cast to ObjectId failed for value "{ _id: '661566d3754d0bb456f6987' }" (type Object) at path "_id" for model "User"
+error [Wed Apr 10 2024 22:11:53 GMT+0530 (India Standard Time)]  Cannot read properties of null (reading 'modifiedCount')
+
+error [Wed Apr 10 2024 22:12:35 GMT+0530 (India Standard Time)]  Cannot read properties of null (reading 'nModified')
+
+error [Wed Apr 10 2024 22:13:04 GMT+0530 (India Standard Time)]  Cannot read properties of null (reading 'nModified')
+
+error [Wed Apr 10 2024 22:15:10 GMT+0530 (India Standard Time)]  Cannot read properties of null (reading 'nModified')
+
+error [Wed Apr 10 2024 22:16:01 GMT+0530 (India Standard Time)]  User not found
+info [Wed Apr 10 2024 22:16:25 GMT+0530 (India Standard Time)]  User updated successfully.
+
+
+
+info [Wed Apr 10 2024 23:33:32 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Wed Apr 10 2024 23:34:27 GMT+0530 (India Standard Time)]  User updated successfully.
+
+
+
+
+
+
+
+
+
+error [Thu Apr 11 2024 03:18:24 GMT+0530 (India Standard Time)]  config is not defined
+
+error [Thu Apr 11 2024 03:19:24 GMT+0530 (India Standard Time)]  Email already exists.
+error [Thu Apr 11 2024 04:45:40 GMT+0530 (India Standard Time)]  config is not defined
+
+error [Thu Apr 11 2024 04:46:09 GMT+0530 (India Standard Time)]  Email already exists.
+
+error [Thu Apr 11 2024 04:49:11 GMT+0530 (India Standard Time)]  config is not defined
+
+
+error [Thu Apr 11 2024 04:51:32 GMT+0530 (India Standard Time)]  config is not defined
+
+error [Thu Apr 11 2024 04:54:43 GMT+0530 (India Standard Time)]  config is not defined
+
+error [Thu Apr 11 2024 04:55:11 GMT+0530 (India Standard Time)]  config is not defined
+
+error [Thu Apr 11 2024 04:56:18 GMT+0530 (India Standard Time)]  config is not defined
+
+info [Thu Apr 11 2024 04:57:06 GMT+0530 (India Standard Time)]  User created successfully.
+
+
+
+
+
+
+
+
+info [Thu Apr 11 2024 22:17:02 GMT+0530 (India Standard Time)]  User created successfully.
+
+
+info [Thu Apr 11 2024 22:20:20 GMT+0530 (India Standard Time)]  otp verified successfully
+
+info [Thu Apr 11 2024 22:20:50 GMT+0530 (India Standard Time)]  otp verified successfully
+info [Thu Apr 11 2024 22:22:51 GMT+0530 (India Standard Time)]  otp verified successfully
+
+info [Thu Apr 11 2024 22:23:56 GMT+0530 (India Standard Time)]  otp verified successfully
+
+
+
+
+
+
+
+info [Fri Apr 12 2024 19:30:38 GMT+0530 (India Standard Time)]  User updated successfully.
+
+
+
+
+
+
+info [Fri Apr 12 2024 22:17:02 GMT+0530 (India Standard Time)]  otp verified successfully
+
+
+info [Mon Apr 15 2024 21:46:58 GMT+0530 (India Standard Time)]  User created successfully.
+info [Mon Apr 15 2024 21:48:46 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Mon Apr 15 2024 21:49:54 GMT+0530 (India Standard Time)]  User fetched successfully.
+error [Mon Apr 15 2024 21:51:30 GMT+0530 (India Standard Time)]  Email already exists.
+info [Mon Apr 15 2024 21:51:52 GMT+0530 (India Standard Time)]  User fetched successfully.
+error [Mon Apr 15 2024 21:56:37 GMT+0530 (India Standard Time)]  Email already exists.
+info [Tue Apr 16 2024 01:57:52 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Tue Apr 16 2024 01:58:26 GMT+0530 (India Standard Time)]  User created successfully.
+info [Tue Apr 16 2024 01:58:29 GMT+0530 (India Standard Time)]  User fetched successfully.
+error [Tue Apr 16 2024 01:58:33 GMT+0530 (India Standard Time)]  Email already exists.
+
+error [Tue Apr 16 2024 20:15:21 GMT+0530 (India Standard Time)]  Email already exists.
+error [Tue Apr 16 2024 20:15:26 GMT+0530 (India Standard Time)]  Email already exists.
+error [Tue Apr 16 2024 20:15:34 GMT+0530 (India Standard Time)]  otpToken is not defined
+
+error [Tue Apr 16 2024 20:15:53 GMT+0530 (India Standard Time)]  Email already exists.
+info [Tue Apr 16 2024 20:15:58 GMT+0530 (India Standard Time)]  User created successfully.
+
+
+
+
+
+
+
+
+
+error [Tue Apr 16 2024 23:07:29 GMT+0530 (India Standard Time)]  compareData is not defined
+
+
+info [Tue Apr 16 2024 23:09:08 GMT+0530 (India Standard Time)]  Login successfully.
+error [Tue Apr 16 2024 23:09:16 GMT+0530 (India Standard Time)]  Wrong credentials entered.
+error [Tue Apr 16 2024 23:09:29 GMT+0530 (India Standard Time)]  Wrong credentials entered.
+info [Tue Apr 16 2024 23:09:42 GMT+0530 (India Standard Time)]  Login successfully.
+info [Tue Apr 16 2024 23:09:48 GMT+0530 (India Standard Time)]  Login successfully.
+
+
+info [Wed Apr 17 2024 02:03:29 GMT+0530 (India Standard Time)]  Login successfully.
+
+
+info [Fri Apr 19 2024 23:37:28 GMT+0530 (India Standard Time)]  User fetched successfully.
+
+
+
+
+
+
+
+
+
+
+info [Sat Apr 20 2024 01:02:37 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:02:37 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:03:28 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:03:28 GMT+0530 (India Standard Time)]  User fetched successfully.
+
+info [Sat Apr 20 2024 01:05:27 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:05:27 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:05:46 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:05:46 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:05:52 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:05:52 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:07:55 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:07:55 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:08:15 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:08:15 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:08:18 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:08:18 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:08:33 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:08:33 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:09:02 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:09:35 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:09:55 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:13:33 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:13:33 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:13:40 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:13:40 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:15:07 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:15:44 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:16:55 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:22:36 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:23:04 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:23:04 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:23:05 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:23:05 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:24:00 GMT+0530 (India Standard Time)]  User created successfully.
+info [Sat Apr 20 2024 01:24:18 GMT+0530 (India Standard Time)]  User created successfully.
+info [Sat Apr 20 2024 01:24:23 GMT+0530 (India Standard Time)]  User created successfully.
+info [Sat Apr 20 2024 01:24:31 GMT+0530 (India Standard Time)]  User created successfully.
+info [Sat Apr 20 2024 01:24:43 GMT+0530 (India Standard Time)]  User created successfully.
+info [Sat Apr 20 2024 01:24:48 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:24:48 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:25:25 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:25:36 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:25:40 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:25:40 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:25:51 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:25:56 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:26:03 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:26:03 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:26:12 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:26:15 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:26:15 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:26:31 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:26:35 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:26:35 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:26:45 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:29:52 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:30:07 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:30:07 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:30:22 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:30:27 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:30:27 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:41:35 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:41:35 GMT+0530 (India Standard Time)]  User fetched successfully.
+
+info [Sat Apr 20 2024 01:45:47 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:45:47 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:48:26 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:48:26 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:48:29 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:48:30 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:49:02 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:49:06 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:49:06 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:52:31 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:53:16 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 01:55:31 GMT+0530 (India Standard Time)]  User fetched successfully.
+
+info [Sat Apr 20 2024 01:57:30 GMT+0530 (India Standard Time)]  User fetched successfully.
+
+
+
+info [Sat Apr 20 2024 01:59:42 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 02:00:01 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 02:00:01 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 02:04:03 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 02:04:09 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 02:04:09 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 02:05:53 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 02:05:57 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 02:05:57 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 02:08:02 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 02:08:11 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 02:08:11 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 02:09:26 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 02:15:03 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 02:15:09 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 02:15:09 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 02:15:10 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 02:15:10 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 02:15:51 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 20 2024 02:15:51 GMT+0530 (India Standard Time)]  User fetched successfully.
+
+
+info [Sat Apr 27 2024 01:39:00 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 27 2024 01:39:56 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 27 2024 01:40:09 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Sat Apr 27 2024 01:40:31 GMT+0530 (India Standard Time)]  User fetched successfully.
+
+
+error [Mon Apr 29 2024 21:21:31 GMT+0530 (India Standard Time)]  Wrong credentials entered.
+error [Mon Apr 29 2024 21:21:43 GMT+0530 (India Standard Time)]  Cannot access 'error' before initialization
+
+error [Mon Apr 29 2024 21:22:28 GMT+0530 (India Standard Time)]  Cannot access 'error' before initialization
+
+error [Mon Apr 29 2024 21:23:08 GMT+0530 (India Standard Time)]  Cannot read properties of undefined (reading '0')
+
+error [Mon Apr 29 2024 21:27:47 GMT+0530 (India Standard Time)]  STATUS_CODES is not defined
+
+error [Mon Apr 29 2024 21:28:33 GMT+0530 (India Standard Time)]  Error: "password" is not allowed to be empty
+    at validateLogin (/home/deljeetk/auctionmarketplace_backend/middlewares/validators.js:50:39)
+    at Layer.handle [as handle_request] (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/index.js:47:12)
+
+
+
+
+error [Mon Apr 29 2024 21:32:40 GMT+0530 (India Standard Time)]  "password" is not allowed to be empty
+
+
+error [Mon Apr 29 2024 21:33:32 GMT+0530 (India Standard Time)]  "password" is not allowed to be empty
+error [Mon Apr 29 2024 21:33:44 GMT+0530 (India Standard Time)]  Wrong credentials entered.
+info [Mon Apr 29 2024 21:38:11 GMT+0530 (India Standard Time)]  Login successfully.
+
+
+
+
+
+
+
+
+info [Mon Apr 29 2024 21:51:40 GMT+0530 (India Standard Time)]  User fetched successfully.
+
+
+
+
+info [Wed May 01 2024 01:40:58 GMT+0530 (India Standard Time)]  Login successfully.
+
+info [Wed May 01 2024 01:47:10 GMT+0530 (India Standard Time)]  User created successfully.
+
+
+error [Wed May 01 2024 02:31:05 GMT+0530 (India Standard Time)]  Email already exists.
+
+error [Wed May 01 2024 02:31:29 GMT+0530 (India Standard Time)]  Email already exists.
+info [Wed May 01 2024 03:01:09 GMT+0530 (India Standard Time)]  User created successfully.
+
+
+
+
+info [Thu May 09 2024 20:32:46 GMT+0530 (India Standard Time)]  User created successfully.
+info [Thu May 09 2024 20:35:07 GMT+0530 (India Standard Time)]  Login successfully.
+info [Thu May 09 2024 20:36:55 GMT+0530 (India Standard Time)]  User fetched successfully.
+error [Thu May 09 2024 20:38:41 GMT+0530 (India Standard Time)]  User not found
+info [Thu May 09 2024 20:39:04 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Thu May 09 2024 20:39:18 GMT+0530 (India Standard Time)]  User updated successfully.
+
+info [Thu May 09 2024 20:40:21 GMT+0530 (India Standard Time)]  User updated successfully.
+
+
+
+
+
+
+
+error [Thu May 09 2024 21:03:26 GMT+0530 (India Standard Time)]  updateDocument is not defined
+
+info [Thu May 09 2024 21:03:55 GMT+0530 (India Standard Time)]  User updated successfully.
+error [Thu May 09 2024 21:04:17 GMT+0530 (India Standard Time)]  Wrong credentials entered.
+info [Thu May 09 2024 21:04:38 GMT+0530 (India Standard Time)]  Login successfully.
+
+info [Thu May 09 2024 21:05:17 GMT+0530 (India Standard Time)]  User updated successfully.
+info [Thu May 09 2024 21:05:29 GMT+0530 (India Standard Time)]  Login successfully.
+info [Thu May 09 2024 21:06:14 GMT+0530 (India Standard Time)]  User updated successfully.
+info [Thu May 09 2024 21:06:19 GMT+0530 (India Standard Time)]  Login successfully.
+
+info [Thu May 09 2024 21:07:47 GMT+0530 (India Standard Time)]  User updated successfully.
+
+info [Thu May 09 2024 21:08:14 GMT+0530 (India Standard Time)]  User updated successfully.
+
+info [Thu May 09 2024 21:09:43 GMT+0530 (India Standard Time)]  User updated successfully.
+info [Thu May 09 2024 21:09:47 GMT+0530 (India Standard Time)]  Login successfully.
+info [Thu May 09 2024 21:10:01 GMT+0530 (India Standard Time)]  User updated successfully.
+info [Thu May 09 2024 21:10:17 GMT+0530 (India Standard Time)]  Login successfully.
+info [Thu May 09 2024 21:10:38 GMT+0530 (India Standard Time)]  User fetched successfully.
+info [Thu May 09 2024 21:10:54 GMT+0530 (India Standard Time)]  Login successfully.
+error [Thu May 09 2024 21:11:07 GMT+0530 (India Standard Time)]  Wrong credentials entered.
+
+info [Thu May 09 2024 21:11:57 GMT+0530 (India Standard Time)]  User updated successfully.
+error [Thu May 09 2024 21:12:07 GMT+0530 (India Standard Time)]  Wrong credentials entered.
+
+
+info [Thu May 09 2024 21:16:38 GMT+0530 (India Standard Time)]  User updated successfully.
+info [Thu May 09 2024 21:16:43 GMT+0530 (India Standard Time)]  Login successfully.
+error [Thu May 09 2024 21:16:51 GMT+0530 (India Standard Time)]  Wrong credentials entered.
+info [Thu May 09 2024 21:18:03 GMT+0530 (India Standard Time)]  User updated successfully.
+info [Thu May 09 2024 21:18:42 GMT+0530 (India Standard Time)]  User updated successfully.
+
+
+
+
+
+
+
+error [Thu May 09 2024 21:28:11 GMT+0530 (India Standard Time)]  TypeError: Joi.string.valid is not a function
+    at validateForgetPassword (/home/deljeetk/auctionmarketplace_backend/middlewares/validators.js:65:41)
+    at Layer.handle [as handle_request] (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/index.js:47:12)
+error [Thu May 09 2024 21:28:28 GMT+0530 (India Standard Time)]  TypeError: Joi.string.valid is not a function
+    at validateForgetPassword (/home/deljeetk/auctionmarketplace_backend/middlewares/validators.js:65:41)
+    at Layer.handle [as handle_request] (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/deljeetk/auctionmarketplace_backend/node_modules/express/lib/router/index.js:47:12)
+
+
+error [Thu May 09 2024 21:29:27 GMT+0530 (India Standard Time)]  Joi.string.valid is not a function
+
+info [Thu May 09 2024 21:29:53 GMT+0530 (India Standard Time)]  User updated successfully.
+
+
+error [Thu May 09 2024 21:33:58 GMT+0530 (India Standard Time)]  Password not matched.
+
+
+
+error [Thu May 09 2024 21:34:48 GMT+0530 (India Standard Time)]  Password not matched.
+error [Thu May 09 2024 21:35:17 GMT+0530 (India Standard Time)]  Password not matched.
+info [Thu May 09 2024 21:35:26 GMT+0530 (India Standard Time)]  User updated successfully.
+
+
+
+error [Thu May 09 2024 21:37:31 GMT+0530 (India Standard Time)]  Old password not matched.
+info [Thu May 09 2024 21:39:17 GMT+0530 (India Standard Time)]  Login successfully.
+
+
+
+info [Thu May 09 2024 21:41:41 GMT+0530 (India Standard Time)]  Login successfully.
+info [Thu May 09 2024 22:17:13 GMT+0530 (India Standard Time)]  User updated successfully.
+
+error [Thu May 09 2024 22:18:00 GMT+0530 (India Standard Time)]  Wrong credentials entered.
+info [Thu May 09 2024 22:18:07 GMT+0530 (India Standard Time)]  Login successfully.
+
+
+
+error [Thu May 09 2024 22:25:31 GMT+0530 (India Standard Time)]  Wrong credentials entered.
+info [Thu May 09 2024 22:25:41 GMT+0530 (India Standard Time)]  Login successfully.
+info [Thu May 09 2024 22:26:02 GMT+0530 (India Standard Time)]  User updated successfully.
+error [Thu May 09 2024 22:26:17 GMT+0530 (India Standard Time)]  Can't update email.
+info [Thu May 09 2024 22:26:32 GMT+0530 (India Standard Time)]  User updated successfully.
+error [Thu May 09 2024 22:27:37 GMT+0530 (India Standard Time)]  Can't update email.
+error [Thu May 09 2024 22:27:50 GMT+0530 (India Standard Time)]  Can't update email.
+
+error [Thu May 09 2024 22:29:51 GMT+0530 (India Standard Time)]  Can't update email.
+info [Thu May 09 2024 22:30:58 GMT+0530 (India Standard Time)]  User updated successfully.
+error [Thu May 09 2024 22:33:04 GMT+0530 (India Standard Time)]  Can't update email.
+
+error [Thu May 09 2024 22:35:41 GMT+0530 (India Standard Time)]  Can't update email.
+
+info [Thu May 09 2024 22:36:35 GMT+0530 (India Standard Time)]  User updated successfully.
+info [Thu May 09 2024 22:36:44 GMT+0530 (India Standard Time)]  User updated successfully.
+error [Thu May 09 2024 22:37:02 GMT+0530 (India Standard Time)]  Can't update email.
+info [Thu May 09 2024 22:38:06 GMT+0530 (India Standard Time)]  User updated successfully.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+error [Fri May 10 2024 01:13:33 GMT+0530 (India Standard Time)]  Product validation failed: createdBy: Cast to ObjectId failed for value ""663ce592f4ae9aa3a7d1c771"" (type string) at path "createdBy" because of "BSONError"
+
+info [Fri May 10 2024 01:14:16 GMT+0530 (India Standard Time)]  Product created successfully!
+info [Fri May 10 2024 01:15:59 GMT+0530 (India Standard Time)]  Product created successfully!
+
+error [Fri May 10 2024 01:19:49 GMT+0530 (India Standard Time)]  Cannot read properties of undefined (reading 'map')
+info [Fri May 10 2024 01:20:29 GMT+0530 (India Standard Time)]  Product created successfully!
+info [Fri May 10 2024 01:24:02 GMT+0530 (India Standard Time)]  Product created successfully!
+
+
+
+
+
+
+
+
+
+
+
+
+
+info [Fri May 10 2024 01:44:19 GMT+0530 (India Standard Time)]  Product created successfully!
+info [Fri May 10 2024 01:50:20 GMT+0530 (India Standard Time)]  Product created successfully!
+info [Fri May 10 2024 01:50:36 GMT+0530 (India Standard Time)]  Product created successfully!
+
+info [Fri May 10 2024 01:54:13 GMT+0530 (India Standard Time)]  Product created successfully!
+info [Fri May 10 2024 01:54:53 GMT+0530 (India Standard Time)]  Product created successfully!
+info [Fri May 10 2024 01:56:24 GMT+0530 (India Standard Time)]  Product created successfully!
+info [Fri May 10 2024 02:34:00 GMT+0530 (India Standard Time)]  Login successfully.
+info [Fri May 10 2024 02:34:20 GMT+0530 (India Standard Time)]  User fetched successfully.
+
+
+info [Fri May 10 2024 03:15:05 GMT+0530 (India Standard Time)]  Product created successfully!
+
+error [Fri May 10 2024 03:16:39 GMT+0530 (India Standard Time)]  Assignment to constant variable.
+
+info [Fri May 10 2024 03:17:13 GMT+0530 (India Standard Time)]  Product created successfully!
+info [Fri May 10 2024 03:28:42 GMT+0530 (India Standard Time)]  Login successfully.
+info [Fri May 10 2024 03:28:50 GMT+0530 (India Standard Time)]  User fetched successfully.
+
+info [Fri May 10 2024 04:31:08 GMT+0530 (India Standard Time)]  Login successfully.
+info [Fri May 10 2024 04:31:30 GMT+0530 (India Standard Time)]  User fetched successfully.
+
+
+
+error [Fri May 10 2024 04:43:56 GMT+0530 (India Standard Time)]  Old password not matched.
+
+
+
+
+info [Fri May 10 2024 20:03:13 GMT+0530 (India Standard Time)]  Login successfully.
+info [Fri May 10 2024 20:03:27 GMT+0530 (India Standard Time)]  User fetched successfully.
+
+
+
+
+
+
+
+
+
+
+
+
+
+error [Fri May 10 2024 20:38:57 GMT+0530 (India Standard Time)]  "email" must be a valid email
+info [Fri May 10 2024 20:39:35 GMT+0530 (India Standard Time)]  User created successfully.
+info [Fri May 10 2024 20:40:32 GMT+0530 (India Standard Time)]  
+error [Fri May 10 2024 20:40:32 GMT+0530 (India Standard Time)]  Invalid status code: undefined
+
+
+info [Fri May 10 2024 20:42:40 GMT+0530 (India Standard Time)]  Email sent successfully.
+
+
+info [Fri May 10 2024 20:45:23 GMT+0530 (India Standard Time)]  Email sent successfully.
+info [Fri May 10 2024 20:46:42 GMT+0530 (India Standard Time)]  Email sent successfully.
+
+
+info [Fri May 10 2024 20:47:35 GMT+0530 (India Standard Time)]  Email sent successfully.
+info [Fri May 10 2024 20:47:58 GMT+0530 (India Standard Time)]  Email sent successfully.
+info [Fri May 10 2024 20:49:09 GMT+0530 (India Standard Time)]  Email sent successfully.
+
+info [Fri May 10 2024 20:49:49 GMT+0530 (India Standard Time)]  Email sent successfully.
+
+
+
+error [Fri May 10 2024 20:56:44 GMT+0530 (India Standard Time)]  "email" must be a valid email
+info [Fri May 10 2024 20:57:26 GMT+0530 (India Standard Time)]  Email sent successfully.
+
+
+
+
+
+
+
+
+
+
+
+error [Fri May 10 2024 21:30:01 GMT+0530 (India Standard Time)]  token is not defined
+
+info [Fri May 10 2024 21:31:17 GMT+0530 (India Standard Time)]  Email sent successfully.
+
+
+
+
+error [Fri May 10 2024 21:38:23 GMT+0530 (India Standard Time)]  userId is not defined
+
+error [Fri May 10 2024 21:41:41 GMT+0530 (India Standard Time)]  Cannot read properties of null (reading '_id')
+
+error [Fri May 10 2024 21:42:06 GMT+0530 (India Standard Time)]  Cannot read properties of null (reading 'email')
+
+error [Fri May 10 2024 21:42:25 GMT+0530 (India Standard Time)]  Cannot read properties of null (reading 'email')
+error [Fri May 10 2024 21:43:10 GMT+0530 (India Standard Time)]  Cannot read properties of null (reading 'email')
+
+error [Fri May 10 2024 21:43:24 GMT+0530 (India Standard Time)]  Cannot read properties of null (reading 'email')
+
+error [Fri May 10 2024 21:43:59 GMT+0530 (India Standard Time)]  Cannot read properties of null (reading 'email')
+info [Fri May 10 2024 21:44:52 GMT+0530 (India Standard Time)]  Password changed successfully.
+error [Fri May 10 2024 21:45:14 GMT+0530 (India Standard Time)]  Wrong credentials entered.
+info [Fri May 10 2024 21:45:28 GMT+0530 (India Standard Time)]  Login successfully.
+
+info [Fri May 10 2024 21:46:37 GMT+0530 (India Standard Time)]  Login successfully.
+info [Fri May 10 2024 21:46:41 GMT+0530 (India Standard Time)]  Password changed successfully.
+info [Fri May 10 2024 21:46:46 GMT+0530 (India Standard Time)]  Login successfully.
+
+info [Fri May 10 2024 22:25:01 GMT+0530 (India Standard Time)]  Password changed successfully.
+error [Fri May 10 2024 22:25:13 GMT+0530 (India Standard Time)]  Wrong credentials entered.
+info [Fri May 10 2024 22:25:20 GMT+0530 (India Standard Time)]  Login successfully.
+
+
+
+
+
+
+info [Fri May 10 2024 22:55:44 GMT+0530 (India Standard Time)]  User created successfully.
+
+info [Fri May 10 2024 22:58:33 GMT+0530 (India Standard Time)]  User created successfully.
+
+
+
+
+
+error [Fri May 10 2024 23:10:52 GMT+0530 (India Standard Time)]  statusCode is not defined
+
+
+info [Fri May 10 2024 23:16:50 GMT+0530 (India Standard Time)]  User deleted successfully.
+
+info [Fri May 10 2024 23:18:39 GMT+0530 (India Standard Time)]  User deleted successfully.
+info [Fri May 10 2024 23:19:13 GMT+0530 (India Standard Time)]  User deleted successfully.
+
+info [Fri May 10 2024 23:19:47 GMT+0530 (India Standard Time)]  User deleted successfully.
+
+info [Fri May 10 2024 23:19:56 GMT+0530 (India Standard Time)]  User deleted successfully.
+info [Fri May 10 2024 23:20:45 GMT+0530 (India Standard Time)]  User deleted successfully.
+
+info [Fri May 10 2024 23:21:16 GMT+0530 (India Standard Time)]  User deleted successfully.
+
+info [Fri May 10 2024 23:21:41 GMT+0530 (India Standard Time)]  User deleted successfully.
+
+
+info [Fri May 10 2024 23:22:31 GMT+0530 (India Standard Time)]  User deleted successfully.
+
+info [Fri May 10 2024 23:31:31 GMT+0530 (India Standard Time)]  User deleted successfully.
+info [Fri May 10 2024 23:33:13 GMT+0530 (India Standard Time)]  User created successfully.
+info [Fri May 10 2024 23:33:56 GMT+0530 (India Standard Time)]  User deleted successfully.
+
+info [Fri May 10 2024 23:35:02 GMT+0530 (India Standard Time)]  User deleted successfully.
+info [Fri May 10 2024 23:35:21 GMT+0530 (India Standard Time)]  User deleted successfully.
+
+info [Fri May 10 2024 23:36:18 GMT+0530 (India Standard Time)]  user deleted
+
+
+
+
+info [Fri May 10 2024 23:38:06 GMT+0530 (India Standard Time)]  User deleted successfully.
+
+info [Fri May 10 2024 23:40:26 GMT+0530 (India Standard Time)]  User deleted successfully.
+
+
+
+error [Fri May 10 2024 23:42:11 GMT+0530 (India Standard Time)]  Cast to ObjectId failed for value "663e615d9eca8c6ea49a5f8" (type string) at path "_id" for model "User"
+error [Fri May 10 2024 23:42:23 GMT+0530 (India Standard Time)]  User not exits.
+
+error [Fri May 10 2024 23:42:55 GMT+0530 (India Standard Time)]  User not exits.
+info [Fri May 10 2024 23:43:00 GMT+0530 (India Standard Time)]  User deleted successfully.
+
+info [Fri May 10 2024 23:44:26 GMT+0530 (India Standard Time)]  Password changed successfully.
+
+info [Fri May 10 2024 23:44:57 GMT+0530 (India Standard Time)]  User deleted successfully.
+info [Fri May 10 2024 23:44:59 GMT+0530 (India Standard Time)]  User deleted successfully.
+
+info [Fri May 10 2024 23:46:06 GMT+0530 (India Standard Time)]  User deleted successfully.
+
+info [Fri May 10 2024 23:46:18 GMT+0530 (India Standard Time)]  User deleted successfully.
+
+info [Fri May 10 2024 23:46:34 GMT+0530 (India Standard Time)]  Password changed successfully.
+
+info [Fri May 10 2024 23:47:17 GMT+0530 (India Standard Time)]  User deleted successfully.
+
+
+
+
+
+
+
+error [Sat May 11 2024 01:52:32 GMT+0530 (India Standard Time)]  findDocument is not defined
+
+error [Sat May 11 2024 01:52:55 GMT+0530 (India Standard Time)]  updateDocument is not defined
+
+error [Sat May 11 2024 01:53:07 GMT+0530 (India Standard Time)]  User is not defined
+
+error [Sat May 11 2024 01:53:52 GMT+0530 (India Standard Time)]  Messages is not defined
+
+info [Sat May 11 2024 01:54:58 GMT+0530 (India Standard Time)]  Product not found
+
+
+info [Sat May 11 2024 01:56:46 GMT+0530 (India Standard Time)]  Product deleted successfully.
+
+
+
+
+
+
+
+
+
+
+
+error [Mon May 13 2024 21:19:48 GMT+0530 (India Standard Time)]  [
+  {
+    message: '"email" must be a valid email',
+    path: [ 'email' ],
+    type: 'string.email',
+    context: {
+      value: 'applebbbbbgmailcom',
+      invalids: [ 'applebbbbbgmailcom' ],
+      label: 'email',
+      key: 'email'
+    }
+  }
+]
+
+
+error [Tue May 14 2024 01:48:21 GMT+0530 (India Standard Time)]  Wrong credentials entered.
+error [Tue May 14 2024 01:49:36 GMT+0530 (India Standard Time)]  Wrong credentials entered.
+error [Tue May 14 2024 01:49:45 GMT+0530 (India Standard Time)]  Wrong credentials entered.
+error [Tue May 14 2024 01:51:47 GMT+0530 (India Standard Time)]  Wrong credentials entered.
+error [Tue May 14 2024 01:51:50 GMT+0530 (India Standard Time)]  Wrong credentials entered.
+error [Tue May 14 2024 01:51:57 GMT+0530 (India Standard Time)]  Wrong credentials entered.
+info [Tue May 14 2024 01:53:24 GMT+0530 (India Standard Time)]  Login successfully.
+error [Tue May 14 2024 01:53:44 GMT+0530 (India Standard Time)]  Wrong credentials entered.
+error [Tue May 14 2024 01:56:59 GMT+0530 (India Standard Time)]  Wrong credentials entered.
+info [Tue May 14 2024 01:57:50 GMT+0530 (India Standard Time)]  Login successfully.
+error [Tue May 14 2024 01:59:17 GMT+0530 (India Standard Time)]  Wrong credentials entered.
+error [Tue May 14 2024 02:24:30 GMT+0530 (India Standard Time)]  Wrong credentials entered.
+
+
+info [Tue May 14 2024 20:13:49 GMT+0530 (India Standard Time)]  User created successfully.
+
+info [Tue May 14 2024 20:19:36 GMT+0530 (India Standard Time)]  User created successfully.
