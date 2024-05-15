@@ -43,10 +43,9 @@ exports.updateUser = async (req, res) => {
     try {
         const userId = req.query.id;
         const updateData = req.body; 
-        const {email} = req.body;
+        const email = req.body.email;
         const ifExist = await findDocument(User, {_id: userId});
         const phobitEmail = ifExist.email !== email;
-        console.log(phobitEmail, "value of email");
         if (!ifExist) {
             const error = new Error(Messages.USER_NOT_FOUND);
             error.statusCode = STATUS_CODES.NOT_FOUND;
@@ -58,7 +57,7 @@ exports.updateUser = async (req, res) => {
             throw error;
         }
         const result = await updateDocument(User, { _id: userId }, { $set: updateData });
-        sendSuccessResponse(res, STATUS_CODES.USER_UPDATED, Messages.USER_UPDATED, null);
+        sendSuccessResponse(res, STATUS_CODES.USER_UPDATED, Messages.USER_UPDATED, result);
     } catch (error) {
         sendErrorResponse(res, error.statusCode || 500, error.message);
     }
