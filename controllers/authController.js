@@ -63,7 +63,8 @@ exports.loginUser = async (req, res) => {
             throw error;
         }
         const token = generateToken({ userId: user._id }, config.token.JWT_SECRET, '1h');
-        sendSuccessResponse(res, STATUS_CODES.LOGIN_SUCCESS, Messages.LOGIN_SUCCESS, token);
+        let response = {token, userId: user._id}
+        sendSuccessResponse(res, STATUS_CODES.LOGIN_SUCCESS, Messages.LOGIN_SUCCESS, response);
     } catch (error) {
         sendErrorResponse(res, error.statusCode || 500, error.message);
     }
